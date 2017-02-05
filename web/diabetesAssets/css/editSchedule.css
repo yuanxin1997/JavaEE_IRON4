@@ -1,0 +1,108 @@
+.col-center {
+  text-align:center;
+}
+
+.col-leftmargin {
+  margin-left:20px;
+}
+
+.tag-space {
+  margin-left:20px;
+}
+
+.tag-xx-space {
+  margin-left:66px;
+}
+
+table.highlight > tbody > tr {
+  transition:background-color .25s ease;
+}
+
+
+
+table.highlight > tbody > tr {
+  transition:background-color .25s ease;
+}
+
+table.highlight > tbody > tr .hid-style {
+  display:none;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color:#f2f2f2;
+}
+
+table.highlight > tbody > tr:hover .hid-style {
+  display:inline-block;
+}
+
+i.glyphicon.glyphicon-plus.icon-color {
+  font-size:xx-large;
+  color:lightgrey;
+}
+
+i.glyphicon.glyphicon-minus.icon-color {
+  font-size:xx-large;
+  color:lightgrey;
+}
+
+i.fa.fa-trash {
+  color:darkgrey;
+  margin-right:20px;
+}
+
+i.fa.fa-trash:hover {
+  color:grey;
+  margin-right:20px;
+}
+
+i.fa.fa-pencil {
+  color:darkgrey;
+  margin-right:10px;
+}
+
+i.fa.fa-pencil:hover {
+  color:grey;
+  margin-right:10px;
+}
+
+.noDecoration {
+  color:lightgrey;
+  text-decoration:none;
+}
+
+.noDecoration:hover {
+  color:lightgrey;
+  text-decoration:none;
+}
+
+.noDecoration:active {
+  color:lightgrey;
+  text-decoration:none;
+}
+
+.noDecoration:focus {
+  color:lightgrey;
+  text-decoration:none;
+}
+
+.activeCol {
+  color:lightgrey;
+  text-decoration:none;
+}
+
+i.pull-right.fa.fa-pencil-square-o {
+  font-size:x-large;
+  color:darkgrey;
+  margin-right:5px;
+}
+
+.decoration:hover {
+  color:grey;
+}
+
+.add-f-size {
+  font-size:18px;
+  color:darkgrey;
+}
+

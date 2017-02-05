@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="diabetesMonitoring">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>diabetesModel.DiabetelogEntity</class>
+        <class>diabetesModel.MemoEntity</class>
+        <class>diabetesModel.ScheduleEntity</class>
+        <class>diabetesModel.DiabetedoctorEntity</class>
+        <class>diabetesModel.DiabetepatientEntity</class>
+        <class>diabetesModel.ProjectEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.user" value="root"/>
+            <property name="eclipselink.jdbc.password" value="060122"/>
+        </properties>
+    </persistence-unit>
+</persistence>

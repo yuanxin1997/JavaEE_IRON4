@@ -1,0 +1,223 @@
+i.fa.fa-plus {
+  font-size:x-large;
+  margin-right:10pt;
+}
+#searchProjectField{
+   margin-top: 8pt;
+}
+
+#formEdit {
+  border-radius:0;
+  width:30%;
+  height:40px;
+  font-size:1em;
+  background:#fff;
+}
+
+#formSave {
+  border-radius:0;
+  width:30%;
+  height:40px;
+  font-size:1em;
+  background:#fff;
+}
+
+#scheduleDiabetes {
+  margin-top:10pt;
+}
+
+#bottomContainer {
+  position:fixed;
+  height:100%;
+  min-width:100%;
+  background-color:#f8f8f8;
+  border-color:#e7e7e7;
+  border-radius:4px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+  background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+  background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat:repeat-x;
+  /*border-radius:4px;*/
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  border:1px solid transparent;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+
+@media (max-width:1199px) {
+  #bottomContainer {
+    border-radius:4px;
+  }
+}
+
+#daySelection{
+  margin-top: 30pt;
+  margin-left: 10pt;
+}
+
+.btmCard{
+  margin-bottom: 30pt;
+}
+
+.quote-container {
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Satisfy;
+  font-size: 20px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.note .author {
+  display: block;
+  margin: 40px 0 0 0;
+  text-align: right;
+}
+
+.note .dateTime{
+  top: 5px;
+  right: 10px;
+  font-size: 15px;
+  display: block;
+  margin: 50px 0 0 0;
+  text-align: right;
+}
+
+.patientColor {
+  background: #c5f442;
+}
+
+.doctorColor {
+  background: #42c2f4;
+}
+
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -16px;
+  z-index: 1;
+}
+
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+  inset 3px 3px 3px hsla(0,0%,100%,.2),
+  inset -3px -3px 3px hsla(0,0%,0%,.2),
+  23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
+
+
+#memoContainer{
+  overflow-y:scroll;
+  height:800px;
+}
+
+
+#memoContainer::-webkit-scrollbar {
+  width: 15px;
+}
+
+#memoContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+  border-radius:100px;
+}
+#memoContainer::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.aClick {
+  color: #999999;
+}
+.aClick:visited {
+  color: #999999;
+}
+.aClick:hover {
+  color: #333;
+  text-decoration: none;
+  rgba(255,255,255,0.2);
+}
+.aClick:active {
+  color:inherit;
+}
+.aClick:focus {
+  outline: 0;
+}
+.avatar {
+  border: 1px solid #eee;
+}
+.line{
+  border-color:lightgrey;
+}
+.memoPencil{
+  width: 100%;
+  font-size:50pt;
+  text-align:center;
+}
+
+
+#adjust{
+  padding-top: 30px;
+}
+
+.dialogContent{
+  margin-bottom: 10px;
+}

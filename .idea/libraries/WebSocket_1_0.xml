@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="WebSocket-1.0" type="WebSocket">
+    <properties version="1.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.websocket-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

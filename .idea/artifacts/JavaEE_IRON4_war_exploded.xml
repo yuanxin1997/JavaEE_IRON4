@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEE_IRON4:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEE_IRON4_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEE_IRON4/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEE_IRON4" />
+          <element id="jpa-descriptors" facet="JavaEE_IRON4/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="WebSocket-1.0" />
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.40" />
+          <element id="library" level="project" name="org.eclipse.persistence:eclipselink:2.6.2" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.0" />
+          <element id="library" level="project" name="jax-rs-jersey-1.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
