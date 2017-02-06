@@ -6,7 +6,7 @@ public class DBController {
     private Connection myConn;
     private Statement myStmt;
     private ResultSet myRs;
-    private String myUrl = "jdbc:mysql://localhost/wayfinder?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private String myUrl = "jdbc:mysql://localhost/jedp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private String myUser = "root";
     private String myPass = "mysql";
 

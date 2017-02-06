@@ -28,7 +28,7 @@ public class DBController {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             url = "jdbc:mysql://localhost/jedp";
-            con = DriverManager.getConnection(url, "root", "IT1639");
+            con = DriverManager.getConnection(url, "root", "mysql");
             System.out.println("Successfully connected to " + url+ ".");
         }
         catch (SQLException e) {
