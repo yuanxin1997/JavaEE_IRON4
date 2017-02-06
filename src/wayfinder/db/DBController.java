@@ -8,7 +8,7 @@ public class DBController {
     private ResultSet myRs;
     private String myUrl = "jdbc:mysql://localhost/jedp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private String myUser = "root";
-    private String myPass = "mysql";
+    private String myPass = "060122";
 
     public Connection getConnection() {
         try { // here

@@ -201,14 +201,14 @@
     <table id="72" parent="2" name="schedule"/>
     <table id="73" parent="2" name="diabetedoctor"/>
     <table id="74" parent="2" name="diabetepatient"/>
-    <table id="75" parent="2" name="Bill"/>
-    <table id="76" parent="2" name="Consultation"/>
-    <table id="77" parent="2" name="Payment"/>
-    <table id="78" parent="2" name="Prescription"/>
-    <table id="79" parent="2" name="doctor"/>
-    <table id="80" parent="2" name="medicine"/>
-    <table id="81" parent="2" name="patient"/>
-    <table id="82" parent="2" name="useraccount"/>
+    <table id="75" parent="2" name="doctor"/>
+    <table id="76" parent="2" name="medicine"/>
+    <table id="77" parent="2" name="patient"/>
+    <table id="78" parent="2" name="useraccount"/>
+    <table id="79" parent="2" name="feedback"/>
+    <table id="80" parent="2" name="knot"/>
+    <table id="81" parent="2" name="route"/>
+    <table id="82" parent="2" name="waypoint"/>
     <column id="83" parent="8" name="CHARACTER_SET_NAME">
       <mandatory>1</mandatory>
       <data-type>varchar(32)|0</data-type>
@@ -3055,270 +3055,264 @@
       <columns>patientId</columns>
       <underlying-index>patientId_UNIQUE</underlying-index>
     </key>
-    <column id="749" parent="75" name="billid">
+    <column id="749" parent="75" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="750" parent="75" name="consultid">
-      <data-type>int(11) unsigned|0</data-type>
-    </column>
-    <column id="751" parent="75" name="totalamountpayable">
-      <data-type>double|0</data-type>
-    </column>
-    <column id="752" parent="75" name="billingdate">
+    <column id="750" parent="75" name="doctorId">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <key id="753" parent="75" name="PRIMARY">
-      <columns>billid</columns>
-      <primary>1</primary>
-    </key>
-    <column id="754" parent="76" name="consultid">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
-      <sequence-identity>1</sequence-identity>
-    </column>
-    <column id="755" parent="76" name="did">
+    <column id="751" parent="75" name="firstName">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="756" parent="76" name="pid">
+    <column id="752" parent="75" name="lastName">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="757" parent="76" name="consultdatetime">
-      <data-type>datetime|0</data-type>
-    </column>
-    <column id="758" parent="76" name="diagnostics">
-      <data-type>longtext|0</data-type>
-    </column>
-    <column id="759" parent="76" name="consulttype">
+    <column id="753" parent="75" name="dateJoined">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="760" parent="76" name="status">
+    <column id="754" parent="75" name="gender">
       <data-type>varchar(45)|0</data-type>
-      <default-expression>&apos;BOOKED&apos;</default-expression>
     </column>
-    <column id="761" parent="76" name="consultduration">
+    <column id="755" parent="75" name="email">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="756" parent="75" name="contactNo">
       <data-type>int(11)|0</data-type>
     </column>
-    <key id="762" parent="76" name="PRIMARY">
-      <columns>consultid</columns>
-      <primary>1</primary>
-    </key>
-    <column id="763" parent="77" name="paymentid">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
-      <sequence-identity>1</sequence-identity>
-    </column>
-    <column id="764" parent="77" name="billid">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="765" parent="77" name="patientid">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="766" parent="77" name="creditcardnum">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="767" parent="77" name="paymenttype">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="768" parent="77" name="expirydate">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="769" parent="77" name="csvnum">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="770" parent="77" name="streetAddress1">
-      <data-type>longtext|0</data-type>
-    </column>
-    <column id="771" parent="77" name="streetAddress2">
-      <data-type>longtext|0</data-type>
-    </column>
-    <column id="772" parent="77" name="state">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="773" parent="77" name="postalcode">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="774" parent="77" name="country">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <key id="775" parent="77" name="PRIMARY">
-      <columns>paymentid</columns>
-      <primary>1</primary>
-    </key>
-    <column id="776" parent="78" name="prescriptionid">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
-      <sequence-identity>1</sequence-identity>
-    </column>
-    <column id="777" parent="78" name="consultid">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="778" parent="78" name="dosage">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="779" parent="78" name="frequency">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="780" parent="78" name="medid">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="781" parent="78" name="patientid">
-      <mandatory>1</mandatory>
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <key id="782" parent="78" name="PRIMARY">
-      <columns>prescriptionid</columns>
-      <primary>1</primary>
-    </key>
-    <column id="783" parent="79" name="id">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
-      <sequence-identity>1</sequence-identity>
-    </column>
-    <column id="784" parent="79" name="doctorId">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="785" parent="79" name="firstName">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="786" parent="79" name="lastName">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="787" parent="79" name="dateJoined">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="788" parent="79" name="gender">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="789" parent="79" name="email">
-      <data-type>varchar(45)|0</data-type>
-    </column>
-    <column id="790" parent="79" name="contactNo">
-      <data-type>int(11)|0</data-type>
-    </column>
-    <column id="791" parent="79" name="profilePic">
+    <column id="757" parent="75" name="profilePic">
       <data-type>mediumblob|0</data-type>
     </column>
-    <index id="792" parent="79" name="doctorId_UNIQUE">
+    <index id="758" parent="75" name="doctorId_UNIQUE">
       <columns>doctorId</columns>
       <desc-columns></desc-columns>
       <unique>1</unique>
     </index>
-    <key id="793" parent="79" name="PRIMARY">
+    <key id="759" parent="75" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <key id="794" parent="79" name="doctorId_UNIQUE">
+    <key id="760" parent="75" name="doctorId_UNIQUE">
       <columns>doctorId</columns>
       <underlying-index>doctorId_UNIQUE</underlying-index>
     </key>
-    <column id="795" parent="80" name="medid">
+    <column id="761" parent="76" name="medid">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="796" parent="80" name="name">
+    <column id="762" parent="76" name="name">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="797" parent="80" name="price">
+    <column id="763" parent="76" name="price">
       <data-type>double|0</data-type>
     </column>
-    <key id="798" parent="80" name="PRIMARY">
+    <key id="764" parent="76" name="PRIMARY">
       <columns>medid</columns>
       <primary>1</primary>
     </key>
-    <column id="799" parent="81" name="id">
+    <column id="765" parent="77" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="800" parent="81" name="patientId">
+    <column id="766" parent="77" name="patientId">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="801" parent="81" name="nric">
+    <column id="767" parent="77" name="nric">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="802" parent="81" name="firstName">
+    <column id="768" parent="77" name="firstName">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="803" parent="81" name="lastName">
+    <column id="769" parent="77" name="lastName">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="804" parent="81" name="gender">
+    <column id="770" parent="77" name="gender">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="805" parent="81" name="dob">
+    <column id="771" parent="77" name="dob">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="806" parent="81" name="height">
+    <column id="772" parent="77" name="height">
       <data-type>double|0</data-type>
     </column>
-    <column id="807" parent="81" name="weight">
+    <column id="773" parent="77" name="weight">
       <data-type>double|0</data-type>
     </column>
-    <column id="808" parent="81" name="bloodtype">
+    <column id="774" parent="77" name="bloodtype">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="809" parent="81" name="race">
+    <column id="775" parent="77" name="race">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="810" parent="81" name="sex">
+    <column id="776" parent="77" name="sex">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="811" parent="81" name="phonenum">
+    <column id="777" parent="77" name="phonenum">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="812" parent="81" name="telephonenum">
+    <column id="778" parent="77" name="telephonenum">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="813" parent="81" name="allergies">
+    <column id="779" parent="77" name="allergies">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="814" parent="81" name="citizenship">
+    <column id="780" parent="77" name="citizenship">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="815" parent="81" name="dietaryneeds">
+    <column id="781" parent="77" name="dietaryneeds">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="816" parent="81" name="email">
+    <column id="782" parent="77" name="email">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="817" parent="81" name="dateOfAdmission">
+    <column id="783" parent="77" name="dateOfAdmission">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="818" parent="81" name="profilePic">
+    <column id="784" parent="77" name="profilePic">
       <data-type>mediumblob|0</data-type>
     </column>
-    <column id="819" parent="81" name="isDiabetic">
+    <column id="785" parent="77" name="isDiabetic">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <index id="820" parent="81" name="patientId_UNIQUE">
+    <index id="786" parent="77" name="patientId_UNIQUE">
       <columns>patientId</columns>
       <desc-columns></desc-columns>
       <unique>1</unique>
     </index>
-    <key id="821" parent="81" name="PRIMARY">
+    <key id="787" parent="77" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <key id="822" parent="81" name="patientId_UNIQUE">
+    <key id="788" parent="77" name="patientId_UNIQUE">
       <columns>patientId</columns>
       <underlying-index>patientId_UNIQUE</underlying-index>
     </key>
-    <column id="823" parent="82" name="id">
+    <column id="789" parent="78" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="824" parent="82" name="userName">
+    <column id="790" parent="78" name="userName">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <column id="825" parent="82" name="passWord">
+    <column id="791" parent="78" name="passWord">
       <data-type>varchar(45)|0</data-type>
     </column>
-    <key id="826" parent="82" name="PRIMARY">
+    <key id="792" parent="78" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="793" parent="79" name="id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="794" parent="79" name="name">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="795" parent="79" name="waypoint_id">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="796" parent="79" name="crit">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="797" parent="79" name="type">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="798" parent="79" name="date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="799" parent="79" name="time">
+      <data-type>time(6)|0</data-type>
+    </column>
+    <key id="800" parent="79" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="801" parent="80" name="id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="802" parent="80" name="offX">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="803" parent="80" name="offY">
+      <data-type>double|0</data-type>
+    </column>
+    <key id="804" parent="80" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="805" parent="81" name="id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="806" parent="81" name="parent_a">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="807" parent="81" name="parent_b">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="808" parent="81" name="accessibility">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="809" parent="81" name="availability">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="810" parent="81" name="description">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <key id="811" parent="81" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="812" parent="82" name="id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="813" parent="82" name="waypointName">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="814" parent="82" name="offX">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="815" parent="82" name="offY">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="816" parent="82" name="access">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="817" parent="82" name="listValue">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="818" parent="82" name="coeff">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="819" parent="82" name="count">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="820" parent="82" name="feedbackAmt">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="821" parent="82" name="cpString">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="822" parent="82" name="accessBorder">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="823" parent="82" name="description">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="824" parent="82" name="accessLimiter">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <key id="825" parent="82" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>

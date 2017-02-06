@@ -87,7 +87,7 @@
                                         <option value="Diet">Diet</option>
                                         <option value="Medication">Medication</option>
                                         <option value="Exercise">Exercise</option>
-                                        <option value="Tests and diagnosis">Tests and diagnosis</option>
+                                        <option value="Diagnosis">Diagnosis</option>
                                     </optgroup>
                                 </select>
                             </div>
