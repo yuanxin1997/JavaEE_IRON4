@@ -46,6 +46,12 @@
 
 	$(document).ready(function ()
 	{
+        $('#myModal').modal({backdrop: 'static', keyboard: false})
+        $('#myModal').modal('show');
+
+            //$('#btn').click();
+
+
 		var validUser = <%=validUser%>
 
 		if(!validUser)
@@ -58,35 +64,28 @@
 </script>
 
 <div class="wrapper">
-	<div class="header">
 
-	</div>
-	<!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
-	<div class="main">
+			<%--<!-- here you can add your content -->--%>
+			<%--<!-- Button trigger modal -->--%>
+			<%--<button class="btn btn-primary" id="btn" data-toggle="modal" data-target="#myModal" hidden>--%>
+				<%--Login--%>
+			<%--</button>--%>
 
-			<!-- here you can add your content -->
-			<!-- Button trigger modal -->
-			<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-				Login
-			</button>
-
-	</div>
-</div>
 
 <!-- Modal Core -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-sm">
+	<div class="modal-dialog modal-md">
 		<div class="modal-content">
-
 				<div class="row">
 					<div class="card">
 						<div class="header header-info text-center purple">
 							<h4>Login</h4>
 						</div>
 						<form class="form" action="/dashboard" method="post">
-							<p class="text-divider"></p>
+							<p class="text-divider">
+                            </p>
 							<div class="content">
-
+                                    <br>
 								<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">face</i>
@@ -110,6 +109,9 @@
 
 						<div class="text-center">
 							<a class="btn btn-simple btn-danger">Forget Password</a>
+                                    <br>
+                            <hr>
+                            <a class="text-center btn btn-round btn-info"  href="">Back to Main Page</a>
 						</div>
 					</div>
 				</div>
