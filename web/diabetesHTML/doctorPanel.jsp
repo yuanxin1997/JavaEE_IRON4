@@ -1,5 +1,16 @@
+<%@ page import="Model.Doctor" %>
+
 <!DOCTYPE html>
-<html ng-app="doctorApp" ng-init="doctorUser='D432123'">
+
+
+<%
+    Doctor dr = (Doctor) session.getAttribute("doctor");
+    String did = dr.getDoctorID();
+    System.out.println(did);
+%>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html ng-app="doctorApp" ng-init="doctorUser='D01' ">
 <head>
     <meta charset="utf-8">
     <title>h@h</title>
@@ -21,6 +32,7 @@
     <link rel="stylesheet" href="../diabetesAssets/css/ngDialog-theme-plain.min.css">
     <link rel="stylesheet" href="../diabetesAssets/css/animate.min.css">
     <link rel="stylesheet" href="../diabetesAssets/css/ScheduleStyle.css">
+    <link rel="stylesheet" href="diabetesAssets/css/datepicker.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 
     <script src="../diabetesAssets/js/modernizr.js"></script>
@@ -33,6 +45,8 @@
     <script src="../diabetesAssets/js/d3.js"></script>
     <script src="../diabetesAssets/js/nv.d3.js"></script>
     <script src="../diabetesAssets/js/angular-nvd3.js"></script>
+    <script src="diabetesAssets/js/datepicker.min.js"></script>
+    <script src="diabetesAssets/js/datepicker.en.js"></script>
 
     <style>
         [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -123,7 +137,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"><img class="img-circle" width="25px" height="25px"  my-src="data:image/jpeg;base64,{{arrayBufferToBase64(doctorDetails.profilePic)}}" > <span>{{ doctorDetails.lastName + " " +doctorDetails.firstName }}</span> <i class="fa fa-chevron-down fa-fw"></i></a>
                     <ul class="dropdown-menu" role="menu">
                         <li role="presentation"><a href="" ng-click="openProfile()"><i class="fa fa-user fa-fw"></i> Profile </a></li>
-                        <li role="presentation"><a href=""><i class="fa fa-power-off fa-fw"></i>Logout </a></li>
+                        <li role="presentation"><a href="/telehtml/H@Hboard/H@HBoard.jsp"><i class="fa fa-power-off fa-fw"></i>Logout </a></li>
                     </ul>
                 </li>
             </ul>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Recieve Call</title>
+</head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.pubnub.com/pubnub.min.js"></script>
+<script src="../../assetsPawandeep/teleConference/webrtc.js"></script>
+
+
+<script>
+    
+    
+//    $(document).ready(function ()
+//    {
+//        var remotevideo = document.getElementById('remote');
+//        // Get it from the local storage
+//        var local = localStorage.getItem('remotevid');
+//        remotevideo.src = local.src ;
+//
+//
+//    })
+    
+    
+
+    // ~Warning~ You must get your own API Keys for non-demo purposes.
+    // ~Warning~ Get your PubNub API Keys: https://www.pubnub.com/get-started/
+    // The phone *number* can by any string value
+    var phone = PHONE({
+        number        : 'S9738337E',
+        publish_key   : 'pub-c-8fa2fbc3-e887-4032-8cbc-eecde52d9b3a',
+        subscribe_key : 'sub-c-f2bfc6c4-cd1b-11e6-8164-0619f8945a4f',
+        ssl           : true
+    });
+
+//    // As soon as the phone is ready we can make calls
+//    phone.ready(function()
+//       {
+////        $('#display-div').append(phone.video);
+//        // Dial a Number and get the Call Session
+//        // For simplicity the phone number is the same for both caller/receiver.
+//        // you should use different phone numbers for each user.
+//        var session = phone.dial('123');
+//
+//    });
+
+    // When Call Comes In or is to be Connected
+    phone.receive(function(session)
+    {
+        var confirmPickUp = confirm('You have a incoming Call, Would like to pickup ?');
+            // Display Your Friend's Live Video
+            session.connected(function(session)
+            {
+                if(confirmPickUp == true)
+                {
+                    phone.send({text:'start call'});//send message
+                    console.log('connected');
+                    //display patient video
+                    var remotevideo = document.getElementById('remote');
+                    var sessionvid = session.video; //get remote video
+                    remotevideo.src = sessionvid.src;
+                }
+                else
+                    {
+                        console.log('End call');
+                        phone.send({text:'end'});
+
+                    }
+
+
+
+//            PUBNUB.$('video-out').appendChild(session.video); //remote video
+
+            });
+
+        // when call ended
+        session.ended(function(session){
+
+            alert('Bye');
+        });
+
+    });
+
+    var consultnotes;
+    //receive message
+    phone.message(function (session,message)
+    {
+        var lastentry = "";
+        consultnotes = message.notes;
+       // console.log(session.number + " " + message.notes);
+        $('#recieveConsultNotes').text(consultnotes);
+    })
+
+
+    phone.connect(function(){    console.log('network LIVE.') })
+
+
+</script>
+
+
+<body>
+
+<h1>Patient Recieve Call</h1>
+
+
+
+<video autoplay id="local" ></video>
+<video autoplay id="remote"></video>
+
+<textarea readonly id="recieveConsultNotes"></textarea>
+
+
+
+</body>
+</html>

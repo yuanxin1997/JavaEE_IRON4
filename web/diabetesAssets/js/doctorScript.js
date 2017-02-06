@@ -42,34 +42,34 @@ var app = angular.module('doctorApp', ["nvd3","ui.router","toastr","ngAnimate","
         $stateProvider
             .state("docHome", {
                 url: "/home",
-                templateUrl: "diabetesAssets/Templates/docHome.html",
+                templateUrl: "diabetesAssets/Templates/docHome.jsp",
                 controller: "docHomeController",
                 controllerAs: "docHomeCtrl"
 
             })
             .state("docNav", {
                 url: "/project",
-                templateUrl: "diabetesAssets/Templates/docNav.html",
+                templateUrl: "diabetesAssets/Templates/docNav.jsp",
                 controller: "docNavController",
                 controllerAs: "scheduleEditCtrl",
                 abstract: true
             })
             .state("docNav.scheduleEdit", {
                 url: "/scheduleEdit/:id",
-                templateUrl: "diabetesAssets/Templates/scheduleEdit.html",
+                templateUrl: "diabetesAssets/Templates/scheduleEdit.jsp",
                 controller: "scheduleEditController",
                 controllerAs: "scheduleEditCtrl"
 
             })
             .state("docNav.memoSchedule", {
                 url : "/memoSchedule/:id",
-                templateUrl: "diabetesAssets/Templates/memoSchedule.html",
+                templateUrl: "diabetesAssets/Templates/memoSchedule.jsp",
                 controller: "memoScheduleController",
                 controllerAs: "memoScheduleCtrl"
             })
             .state("docNav.statistic", {
                 url : "/statistic/:id",
-                templateUrl: "diabetesAssets/Templates/statistic.html",
+                templateUrl: "diabetesAssets/Templates/statistic.jsp",
                 controller: "statisticController",
                 controllerAs: "statisticCtrl"
             })
@@ -1313,6 +1313,12 @@ var app = angular.module('doctorApp', ["nvd3","ui.router","toastr","ngAnimate","
         //////////////////////////////////////////////// Yesterday End.///////////////////////////////////////////////
         //////////////////////////////////////////////// More Start.//////////////////////////////////////////////////
 
+        vm.selectedDate ='';
+        vm.changeValue =function () {
+            vm.selectedDate =$('#date').val();
+            vm.dataN = getDataN(vm.selectedDate);
+
+        };
         var timeN =[];
         vm.optionsN = {
             chart: {

@@ -323,12 +323,12 @@ Main Components
   background: #513e63;
 }
 
-.cd-schedule .single-event[data-tag="Tests and diagnosis"],
-.cd-schedule [data-tag="Tests and diagnosis"] .header-bg {
+.cd-schedule .single-event[data-tag="Diagnosis"],
+.cd-schedule [data-tag="Diagnosis"] .header-bg {
   background: #A2B9B2;
 }
 
-.cd-schedule .single-event[data-tag="Tests and diagnosis"]:hover {
+.cd-schedule .single-event[data-tag="Diagnosis"]:hover {
   background: #b1c4be;
 }
 

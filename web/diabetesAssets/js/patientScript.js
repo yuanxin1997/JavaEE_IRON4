@@ -43,20 +43,20 @@
          $stateProvider
              .state("dailyTrack", {
                  url: "/dailyTrack",
-                 templateUrl: "diabetesAssets/Templates/dailyTrack.html",
+                 templateUrl: "diabetesAssets/Templates/dailyTrack.jsp",
                  controller: "dailyTrackController",
                  controllerAs: "dailyTrackCtrl"
 
              })
              .state("memoSchedule", {
                  url : "/memoSchedule",
-                 templateUrl: "diabetesAssets/Templates/memoSchedule.html",
+                 templateUrl: "diabetesAssets/Templates/memoSchedule.jsp",
                  controller: "memoScheduleController",
                  controllerAs: "memoScheduleCtrl"
              })
              .state("statistic", {
                  url : "/statistic",
-                 templateUrl: "diabetesAssets/Templates/statistic.html",
+                 templateUrl: "diabetesAssets/Templates/statistic.jsp",
                  controller: "statisticController",
                  controllerAs: "statisticCtrl"
              })

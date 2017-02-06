@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Bill UI</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="../assetsPawandeep/Dashboard/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animation library for notifications   -->
+    <link href="../assetsPawandeep/Dashboard/assets/css/animate.min.css" rel="stylesheet"/>
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="../assetsPawandeep/Dashboard/assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="../assetsPawandeep/Dashboard/assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.13.0/moment.min.js"></script>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<style>
+
+    #paymentcontainer
+    {
+        width: 500px;
+        clear: both;
+    }
+
+    #paymentcontainer input
+    {
+        width: 100%;
+        clear: both;
+    }
+
+
+
+
+
+</style>
+<script>
+
+    function displayBill(descriptionList,priceList,totalAmoutBeforeGST,totalAmoutAfterGST)
+    {
+        var size = descriptionList.length;
+
+        var duration = descriptionList[size - 1];
+        var durationPrice = priceList[size-1];
+
+
+        for(var i = 0 ; i<(size-1); i++)
+        {
+            var description = descriptionList[i];
+            var price = priceList[i];
+
+
+            $('#BillTable > tbody').append
+            (
+                    '<tr>'+
+                    '<td style="border: none; border-right:#ddd thin solid;" >'+ description +'</td>' +
+                    '<td style="border: none;">'+ price +'</td>'+
+                    '</tr>'
+            )
+        }
+
+        $('#BillTable > tbody').append
+        (
+                '<tr>'+
+                '<td style=" border: none; border-right:#ddd thin solid;" >'+ duration +'</td>' +
+                '<td style="border: none;">'+ durationPrice +'</td>'+
+                '</tr>' +
+
+                '<tr>'+
+                '<td style="border-right:#ddd thin solid;" >'+ 'Total CHARGE' +'</td>' +
+                '<td>'+ totalAmoutBeforeGST +'</td>'+
+                '</tr>' +
+
+                '<tr>'+
+                '<td style="border: none; border-right:#ddd thin solid;" >'+ 'Amount payable before GST' +'</td>' +
+                '<td style="border: none;">'+ totalAmoutBeforeGST +'</td>'+
+                '</tr>' +
+
+                '<tr>'+
+                '<td style="border: none; border-right:#ddd thin solid;" >'+ 'Add 7% GST' +'</td>' +
+                '<td style="border: none;">'+ totalAmoutAfterGST +'</td>'+
+                '</tr>' +
+
+                '<tr>'+
+                '<td style="border-right:#ddd thin solid;" >'+ 'Total Amount payable' +'</td>' +
+                '<td >'+ "$ " +totalAmoutAfterGST +'</td>'+
+                '</tr>'
+
+
+        )
+    }
+
+    $(document).ready(function ()
+    {
+        getConsultationBill();
+
+        function getConsultationBill()
+        {
+            $.ajax(
+                    {
+                        url : '/services/bill/getpatientconsultationbill/3',
+                        type: 'GET',
+                        datatype : 'json',
+                        success : function (data)
+                        {
+                            //console.log(data);
+                            displayBill(data.descriptionList,data.priceList,data.totalAmtBeforeGST,data.totalAmountPayable);
+                        }
+                    })
+        }
+
+
+        //TODO : GET PATIENT PARTICULARS , INCLUDING CONSULTATION DURATION AND DATETIME
+
+
+
+
+    })
+
+
+
+</script>
+
+
+
+
+<body>
+
+
+<div class="wrapper">
+
+
+    <div class="sidebar" data-color="black" >
+
+        <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+        <!--SIDE BAR NAVIGATION-->
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="javascript:void(0)" class="simple-text">
+                        welcome test
+                </a>
+            </div>
+
+            <ul class="nav">
+
+                <li class="active" id="mainClick">
+                    <a href="#">
+                        <i class="pe-7s-home"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+
+
+    </div>
+    <!--END OF SIDEBAR-->
+
+    <div class="main-panel">
+
+
+        <!--TOP NAVBARS-->
+        <nav class="nav navbar-default navbar-fixed">
+
+            <div class="container-fluid">
+
+                <!--BAR NAVIGATION HEADER-->
+
+                <div class="navbar-header">
+
+                    <!--<%&#45;&#45;<button type="button" class="navbar-toggle" data-toggle="collapse">&#45;&#45;%>-->
+                    <!--<%&#45;&#45;<span class="sr-only">Toggle navigation</span>&#45;&#45;%>-->
+                    <!--<%&#45;&#45;<span class="icon-bar"></span>&#45;&#45;%>-->
+                    <!--<%&#45;&#45;<span class="icon-bar"></span>&#45;&#45;%>-->
+                    <!--<%&#45;&#45;<span class="icon-bar"></span>&#45;&#45;%>-->
+                    <!--<%&#45;&#45;</button>&#45;&#45;%>-->
+                    <a class="navbar-brand" href="#">Dashboard</a>
+
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    <!--LEFT SIDE TOP BAR NAVIGATION-->
+
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <!--<%&#45;&#45;<a href="#" class="dropdown-toggle" data-toggle="dropdown">&#45;&#45;%>-->
+                            <!--<%&#45;&#45;<i class="fa fa-dashboard"></i>&#45;&#45;%>-->
+                            <!--<%&#45;&#45;</a>&#45;&#45;%>-->
+                        </li>
+                    </ul>
+
+                    <!--RIGHT SIDE TOP BAR NAVIGATION-->
+                    <!--<%&#45;&#45;TODO UPDATE LIKE YUAN XIN's &#45;&#45;%>-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Account
+                                <b class="caret"></b>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <!--<a href="../Login/Login.jsp">Logout</a>-->
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </nav>
+        <!--<%&#45;&#45;END OF TOP NAVBAR&#45;&#45;%>-->
+
+
+        <!--MAIN BODY-->
+        <div class="content" id="mainBody">
+            <div class="container-fluid" id="main">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+
+                            <div class="header">
+                                <h3 class="title">Bill for Tele-Conference</h3>
+                                <p class="small">Date : </p>
+                            </div>
+
+                            <div class="content table-full-width table-responsive">
+                                <table class="table table-bordered" id="BillTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount Payable</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <!--<tr>-->
+                                            <!--<td style="border: none; border-right:#ddd thin solid;">descr 1....</td>-->
+                                            <!--<td style="border: none;">5.00</td>-->
+                                        <!--</tr>-->
+                                        <!--<tr>-->
+                                            <!--<td style="border: none;border-right: #ddd thin solid;">descr 1....</td>-->
+                                            <!--<td style="border: none">5.00</td>-->
+                                        <!--</tr>-->
+
+
+                                        <!--<td>Total charge</td>-->
+                                        <!--<td id="TotalCharge">500</td>-->
+
+                                    <!--<tr>-->
+                                        <!--<td style="border: none;border-right: #ddd thin solid;">Amount payable before GST</td>-->
+                                        <!--<td style="border: none">4141</td>-->
+                                    <!--</tr>-->
+
+                                        <!--<td style="border: none;border-right: #ddd thin solid;">Add 7% GST</td>-->
+                                        <!--<td style="border: none;">4241</td>-->
+
+                                    <!--<tr>-->
+                                        <!--<td>Total Amount payable</td>-->
+                                        <!--<td>4321</td>-->
+                                    <!--</tr>-->
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="footer">
+                                <div class="stats">
+
+
+                                </div>
+                                <button id="makePayment">Make Payment</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+
+                            <div class="header">
+                                <h3 class="title">Payment</h3>
+                                <hr>
+                            </div>
+
+                            <div class="content" id="paymentcontainer">
+
+                                <form action="" method="post">
+                                   <p>Personal Information</p>
+                                    <hr>
+
+                                    <label for="firstNameinput"> First Name  </label>
+                                    <input type="text" name="firstName" id="firstNameinput">
+
+
+                                    <br>
+
+                                    <label for="lastNameinput">Last Name </label>
+                                    <input type="text" name="lastName" id="lastNameinput">
+
+                                    <br>
+
+                                    <label for="emailinput"> Email address: </label>
+                                        <input type="email" name="emailaddr" id="emailinput">
+
+
+
+                                    <hr>
+                                    <p>Credit Card info</p>
+                                    <hr>
+
+                                    <label for="cardtypeinput"> Payment Type </label>
+                                        <select name="cardtype" id="cardtypeinput">
+                                            <option value="null">--Select One--</option>
+                                            <option value="Amercian Express">American Express</option>
+                                            <option value="Discover">Discover</option>
+                                            <option value="Mastercard">Mastercard</option>
+                                            <option value="VISA">VISA</option>
+                                        </select>
+
+
+                                    <br>
+                                    <label for="creditcardinput"> Credit card Num </label>
+                                        <input type="number" name="creditcardnum" id="creditcardinput">
+
+
+                                    <br>
+
+                                    <label> Expiration Date : </label>
+                                            <input type="number" name="monthexpiredate" id="monthexpireinput" placeholder="mm" style="width: 5em">
+
+
+                                        /
+                                        <label for="yearexpireinput">
+                                            <input type="number" name="yearexpiredate" id="yearexpireinput" PLACEHOLDER="yy" style="width: 5em">
+                                        </label>
+
+                                    <br>
+
+                                    <label for="cscinput">CSC</label>
+                                    <input type="number" name="cscnum" id="cscinput" style="width: 5em"><a href="../explainCSC.html" target="popup" onclick="window.open('../explainCSC.html','popup','width=450,height=300'); return false"> What is this ?</a>
+
+                                    <p>Billing Information</p>
+
+                                    <label for="companyinput"> Company (optional):</label>
+                                    <input name="company" type="text" size="50" id="companyinput">
+
+                                    <br>
+
+
+                                    <label for="address1input">Street Address: </label>
+                                    <input name="address1" type="text" value="" size="50" id="address1input">
+
+                                    <br>
+
+                                    <label for="address2input">Street Address (2) (optional):</label>
+                                    <input name="address2" type="text" value="" size="50" id="address2input">
+
+                                    <br>
+
+
+                                    <label for="stateinput">State/Province:</label>
+                                    <input name="state" type="text" value="" size="50" id="stateinput">
+
+                                    <br>
+
+                                    <label for="zipinput">Zip/Postal Code:</label>
+                                    <input name="zip" type="text" value="" size="50" id="zipinput">
+
+                                    <br>
+
+                                    <label for="countryinput"> Country:</label>
+                                    <input name="country" type="text" value="" size="50" id="countryinput">
+
+                                    <br>
+
+                                    <label for="phoneinput">Phone:</label>
+                                    <input name="phone" type="text" value="" size="50" id="phoneinput">
+
+
+                                    <button type="submit">Confirm Payment</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</div>
+<!--<%&#45;&#45;END OF MAIN PANEL&#45;&#45;%>-->
+
+
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="../assetsPawandeep/Dashboard/assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="../assetsPawandeep/Dashboard/assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--  Checkbox, Radio & Switch Plugins -->
+<script src="../assetsPawandeep/Dashboard/assets/js/bootstrap-checkbox-radio-switch.js"></script>
+
+<!--  Charts Plugin -->
+<script src="../assetsPawandeep/Dashboard/assets/js/chartist.min.js"></script>
+
+<!--  Notifications Plugin    -->
+<script src="../assetsPawandeep/Dashboard/assets/js/bootstrap-notify.js"></script>
+</html>

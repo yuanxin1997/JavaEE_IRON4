@@ -1,6 +1,13 @@
+<%@ page import="Model.Patient" %>
 <!DOCTYPE html>
-<html ng-app="patientApp" ng-init="patientUser='P732122'">
+<%
 
+        Patient pt = (Patient) session.getAttribute("patient");
+    String patientid = pt.getPatientID();
+
+%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html ng-app="patientApp" ng-init="patientUser='<%=patientid%>'">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +30,7 @@
     <link rel="stylesheet" href="../diabetesAssets/css/animate.min.css">
     <link rel="stylesheet" href="../diabetesAssets/css/ScheduleStyle.css">
     <link rel="stylesheet" href="../diabetesAssets/css/timedropper.css">
+    <link rel="stylesheet" href="diabetesAssets/css/datepicker.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 
     <script src="../diabetesAssets/js/modernizr.js"></script>
@@ -35,6 +43,8 @@
     <script src="../diabetesAssets/js/d3.js"></script>
     <script src="../diabetesAssets/js/nv.d3.js"></script>
     <script src="../diabetesAssets/js/angular-nvd3.js"></script>
+    <script src="diabetesAssets/js/datepicker.min.js"></script>
+    <script src="diabetesAssets/js/datepicker.en.js"></script>
 
 
     <style>
@@ -101,7 +111,7 @@
                         <i class="fa fa-chevron-down fa-fw"></i></a>
                     <ul class="dropdown-menu" role="menu">
                         <li role="presentation"><a href="" ng-click="openProfile()"><i class="fa fa-user fa-fw"></i> Profile </a></li>
-                        <li role="presentation"><a href=""><i class="fa fa-power-off fa-fw"></i>Logout </a></li>
+                        <li role="presentation"><a href="/telehtml/H@Hboard/H@HBoard.jsp"><i class="fa fa-power-off fa-fw"></i>Logout </a></li>
                     </ul>
                 </li>
             </ul>
