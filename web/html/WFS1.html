@@ -1,0 +1,239 @@
+<html><head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="..\css\qq.css" rel="stylesheet" type="text/css">
+    <link href="..\css\style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+
+    <script type="text/javascript">
+
+        function openCity(cityName, optionName) {
+            document.getElementsByClassName('myUL').disabled = false;
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+            document.getElementById('myInput').reset();
+            document.getElementById('listAll').style.display = "none";
+        }
+
+        window.setTimeout(function() {
+
+        }, 0);
+
+        $(document).ready(function() {
+            $(".myUL").append('<li class="list-group-item"><a href="/user/messages">Message Center</a></li>');
+            var ul = document.getElementsByClassName("myUL");
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode("<%= waypointNames.get(0)%>"));
+            ul.appendChild(li);
+            alert("hello world");
+        });
+
+        function inputFocus() {
+            document.getElementById('listAll').style.display = "";
+            document.getElementById('London').style.display = "none";
+            document.getElementById('Paris').style.display = "none";
+            document.getElementById('Tokyo').style.display = "none";
+        }
+
+        function displayFilter() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById('myInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("ulAll");
+            li = ul.getElementsByTagName('li');
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+    </script>
+
+    <style>
+
+        #myInput {
+            background-position: 10px 12px; /* Position the search icon */
+            background-repeat: no-repeat; /* Do not repeat the icon image */
+            width: 100%; /* Full-width */
+            font-size: 16px; /* Increase font-size */
+            padding: 12px 20px 12px 40px; /* Add some padding */
+            border: 1px solid #ddd; /* Add a grey border */
+            margin-bottom: 12px; /* Add some space below the input */
+        }
+
+
+        #ulAll {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #ulAll li{
+            border: 1px solid #ddd; /* Add a border to all links */
+            padding:0;
+        }
+
+        #ulAll li a {
+            margin: -1px 0 0 0; /* Prevent double borders */
+            background-color: #f6f6f6; /* Grey background color */
+            padding: 12px; /* Add some padding */
+            text-decoration: none; /* Remove default text underline */
+            color: black; /* Add a black text color */
+            display: block; /* Make it into a block element to fill the whole list */
+        }
+        #ulAll li a:hover:not(.header) {
+            background-color: #eee; /* Add a hover effect to all links, except for headers */
+        }
+
+        .myUL {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .myUL li{
+            border: 1px solid #ddd; /* Add a border to all links */
+            padding:0;
+        }
+
+        .myUL li a {
+            margin: -1px 0 0 0; /* Prevent double borders */
+            background-color: #f6f6f6; /* Grey background color */
+            padding: 12px; /* Add some padding */
+            text-decoration: none; /* Remove default text underline */
+            color: black; /* Add a black text color */
+            display: block; /* Make it into a block element to fill the whole list */
+        }
+
+        .myUL li a:hover:not(.header) {
+            background-color: #eee; /* Add a hover effect to all links, except for headers */
+        }
+
+    </style>
+
+
+  </head>
+
+
+
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><span>Wayfinder</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="">
+              <a href="#">Home</a>
+            </li>
+            <li class="active">
+              <a href="WayfinderLanding.jsp">Wayfinder</a>
+            </li>
+            <li>
+              <a href="#">Diabetes Monitor</a>
+            </li>
+            <li>
+              <a href="login.jsp">Virtual Chat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Step 1: Set your sights</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">Select the type of Location that you want to find.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+              <input type="text" id="myInput" onfocus="inputFocus()" onkeyup="displayFilter()" placeholder="Search for wards/rooms..">
+
+              <ul class="nav nav-justified nav-pills" style="border: 2px; border-color: gainsboro; margin-bottom: 10px;">
+                  <li id="landmarks"><a href="#" onclick="openCity('London', 'landmarks')">Hospital Landmarks</a></li>
+                  <li id="wards"><a href="#" onclick="openCity('Paris', 'wards')">Wards / Clinics</a></li>
+                  <li id="depts"><a href="#" onclick="openCity('Tokyo', 'depts')">Departments</a></li>
+              </ul>
+
+              <div id="listAll" class="w3-container city" >
+                  <ul class="list-group" id="ulAll">
+                      <h2>All locations</h2>
+                      <li class="list-group-item "><a href="http://localhost:8080/selectDestination">Cras justo odio</a></form></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Karalis Questor</a></li>
+                      <li class="list-group-item "><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Serpe Mentalis</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                  </ul>
+              </div>
+
+              <div id="London" class="w3-container city"style="display:none" >
+                  <ul class="list-group myUL">
+                      <h2>Landmarks</h2>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                  </ul>
+              </div>
+
+              <div id="Paris" class="w3-container city" style="display:none">
+                  <ul class="list-group myUL">
+                      <h2>Wards / Clinics</h2>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                  </ul>
+              </div>
+
+              <div id="Tokyo" class="w3-container city" style="display:none">
+                  <ul class="list-group myUL">
+                      <h2>Departments</h2>
+                      <li class="list-group-item "><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                      <li class="list-group-item"><a href="WayfinderLanding.html">Cras justo odio</a></li>
+                  </ul>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body></html>

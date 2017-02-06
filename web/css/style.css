@@ -1,0 +1,16 @@
+.btnList {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #404040;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btnList:hover {
+    background: #cccccc;
+    text-decoration: none;
+}
