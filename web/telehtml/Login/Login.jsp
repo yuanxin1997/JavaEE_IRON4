@@ -111,7 +111,7 @@
 							<a class="btn btn-simple btn-danger">Forget Password</a>
                                     <br>
                             <hr>
-                            <a class="text-center btn btn-round btn-info"  href="">Back to Main Page</a>
+                            <a class="text-center btn btn-round btn-info"  href="/html/mainPage.html">Back to Main Page</a>
 						</div>
 					</div>
 				</div>

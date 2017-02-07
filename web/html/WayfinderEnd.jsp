@@ -87,16 +87,10 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    <a href="#">Home</a>
+                    <a href="mainPage.html">Home</a>
                 </li>
                 <li class="active">
                     <a href="WayfinderLanding.jsp">Wayfinder</a>
-                </li>
-                <li>
-                    <a href="#">Diabetes Monitor</a>
-                </li>
-                <li>
-                    <a href="login.jsp">Virtual Chat</a>
                 </li>
             </ul>
         </div>

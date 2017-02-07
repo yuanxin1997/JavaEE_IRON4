@@ -7,7 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
           rel="stylesheet" type="text/css">
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
@@ -19,7 +22,7 @@
         $(document).ready(function()
         {
             getAllFeedback();
-        })
+        });
 
         function appendTableFeedback(waypointId, waypointName, isEnabled, amt, date, time){
 
@@ -43,7 +46,7 @@
 
         function getAllFeedback(){
 
-            var url = '/services/wayfinderFeedback/getWaypoint';
+            var url = '/wayServices/wayfinderFeedback/getWaypoint';
             var allFeedback = [];
 
             $.ajax({
@@ -77,7 +80,7 @@
 
         function getTimeFeedback(id, name, isEnabled, feedBackAmt){
 
-            var url = '/services/wayfinderFeedback/getFeedbackTime/'+id;
+            var url = '/wayServices/wayfinderFeedback/getFeedbackTime/'+id;
 
             $.ajax({
 
@@ -140,16 +143,10 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    <a href="#">Home</a>
+                    <a href="mainPage.html">Home</a>
                 </li>
                 <li class="active">
                     <a href="WayfinderLanding.jsp">Wayfinder</a>
-                </li>
-                <li>
-                    <a href="#">Diabetes Monitor</a>
-                </li>
-                <li>
-                    <a href="login.jsp">Virtual Chat</a>
                 </li>
             </ul>
         </div>

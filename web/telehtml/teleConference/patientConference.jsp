@@ -429,7 +429,15 @@
                     <div class="row">
 
                         <div class="col-md-12">
-                            <textarea readonly id="recieveConsultNotes"></textarea>
+                            <div class="card">
+                                <div class="header">
+                                    <h4 class="title">Doctor's Report/Diagnostics</h4>
+                                </div>
+                                <div class="content">
+                                    <textarea  cols="100" rows="5" readonly id="recieveConsultNotes"></textarea>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>

@@ -64,9 +64,9 @@
     </style>
 
     <%
-        try{
-            Thread.sleep(3000);
-        }catch(InterruptedException e){e.printStackTrace();}
+//        try{
+//            Thread.sleep(3000);
+//        }catch(InterruptedException e){e.printStackTrace();}
 
         response.setHeader("Cache-Control","no-cache"); //HTTP 1.1
         response.setHeader("Pragma","no-cache"); //HTTP 1.0C:\Users\admin\IdeaProjects\IronFour\web\img\generatedMap.png
@@ -119,16 +119,10 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    <a href="#">Home</a>
+                    <a href="mainPage.html">Home</a>
                 </li>
                 <li class="active">
                     <a href="WayfinderLanding.jsp">Wayfinder</a>
-                </li>
-                <li>
-                    <a href="#">Diabetes Monitor</a>
-                </li>
-                <li>
-                    <a href="login.jsp">Virtual Chat</a>
                 </li>
             </ul>
         </div>
