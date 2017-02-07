@@ -2,6 +2,303 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9aecd94-75fa-4136-a37f-bdfb749849c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/default-avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/face-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/faces/tim_vector.jpe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/new_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/sidebar-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/sidebar-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/sidebar-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/sidebar-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/sidebar-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/tim_80x80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/apple-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/arrow-left.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/arrow-right.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/bg2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/bg3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/bg4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/christian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/default-avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/chris9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/examples/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/AU.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/BE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/BF.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/BG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/BO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/BR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/CZ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/DE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/DJ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/DK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/DZ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/EE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/EG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/ES.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/FI.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/FR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/GA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/GB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/GM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/GT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/HN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/HT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/HU.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/ID.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IQ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/IT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/JM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/JO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/JP.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KP.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KW.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/KZ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LC.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LU.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/LV.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/MG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/MK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/ML.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/MM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/MT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/MX.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NI.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/NO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/OM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/PY.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/QA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/RO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/RU.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/RW.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/SV.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/TD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/TJ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/TL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/TR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/TZ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/UA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/US.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/VE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/VN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/flags/YE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/kendall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/landing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/marc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/profile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/css/light-bootstrap-dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/img/loading-bubbles.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/bootstrap-checkbox-radio-switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/bootstrap-notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/js/light-bootstrap-dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_chartist.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_checkbox-radio-switch.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_collapse.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_datepicker.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_flexisel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_footers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_morphing-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_sections.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_sliders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_social-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_tabs-navs-pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_tags.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_tooltips-and-popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_chartist.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_social-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_transparency.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/assets/sass/light-bootstrap-dashboard.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/doctorDashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/jquery-ui/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/jquery-ui/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/jquery-ui/jquery.ui.autocomplete.scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/jquery-ui/jquery.ui.autocomplete.scroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/jquery.noty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/bottom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/bottomCenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/bottomLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/bottomRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/center.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/centerLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/centerRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/inline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/topCenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/topLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/layouts/topRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/packaged/jquery.noty.packaged.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/packaged/jquery.noty.packaged.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/themes/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/themes/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/themes/metroui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/themes/relax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Dashboard/noty/themes/semanticUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/css/material-kit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/css/material-kit.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/img/loading-bubbles.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/material-kit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/js/nouislider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_checkboxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_dialogs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_dividers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_example-pages.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_footers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_images.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_import-bs-less.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_import-bs-sass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_info-areas.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_inputs-size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_pills.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_popups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_radios.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_ripples.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_sections.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_shadows.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_togglebutton.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_variables_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/_welljumbo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/plugins/_plugin-datepicker.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/plugins/_plugin-dropdownjs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/plugins/_plugin-nouislider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/plugins/_plugin-selectize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/assets/sass/material-kit/plugins/_plugin-snackbarjs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/Login/css/Loginstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/teleConference/DoctorPhone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/teleConference/PatientPhone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/teleConference/patientwebrtc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assetsPawandeep/teleConference/webrtc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -88,7 +385,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
+    <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
@@ -148,6 +445,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final_JEDPversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final_JEDPversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telehtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final_JEDPversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final_JEDPversion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telehtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teleConference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -681,19 +1018,36 @@
       <option name="presentableId" value="Default" />
       <updated>1486383344346</updated>
       <workItem from="1486383345806" duration="1463000" />
-      <workItem from="1486429439094" duration="243000" />
+      <workItem from="1486429439094" duration="355000" />
     </task>
+    <task id="LOCAL-00001" summary="Pawandeep commit">
+      <created>1486474460027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1486474460027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1706000" />
+    <option name="totallyTimeSpent" value="1818000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="10" y="23" width="1440" height="873" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -701,7 +1055,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13879782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -710,6 +1064,7 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21244635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -721,8 +1076,25 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -734,6 +1106,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pawandeep commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pawandeep commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,7 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assetsPawandeep/Login/css/Loginstyle.css" />
     <entry file="file://$PROJECT_DIR$/web/diabetesAssets/js/doctorScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
@@ -826,6 +1201,22 @@
           <folding>
             <element signature="n#script#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assetsPawandeep/Login/css/Loginstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/telehtml/teleConference/patientConference.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5670">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
