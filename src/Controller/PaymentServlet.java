@@ -1,5 +1,6 @@
 package Controller;
 
+import Database.BillDBAO;
 import Database.PaymentDBAO;
 import Model.Payment;
 
@@ -50,9 +51,9 @@ public class PaymentServlet extends HttpServlet {
         
         payment = new Payment(billID,patientID,creditCardnumINT,paymentType,creditcardExpiry,cscNumInt,address1,address2,state,zipInt,country);
 
-        if(PaymentDBAO.insertPayment(payment))
+        if(PaymentDBAO.insertPayment(payment) && BillDBAO.UpdateBillPaymentMade(billID))
         {
-            RequestDispatcher rd = request.getRequestDispatcher("/telehtml/Dashboard/patientBillboard.jsp");
+            RequestDispatcher rd = getServletContext().getRequestDispatcher("/telehtml/Dashboard/patientBillboard.jsp");
             rd.forward(request,response);
         }
 

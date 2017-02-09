@@ -56,7 +56,7 @@
             $('#teleconferencelink').text('Tele-Conference Consultation');
 
             $('#diabetesmonitorlink').attr('href','../../diabetesHTML/doctorPanel.jsp');
-            $('#diabetesmonitorlink').text('Doctor Diabetes monitor');
+            $('#diabetesmonitorlink').text('Diabetes Monitoring System');
 
         }
         else if(userType == 'patient')
@@ -66,7 +66,7 @@
 
 
             $('#diabetesmonitorlink').attr('href','../../diabetesHTML/patientPanel.jsp');
-            $('#diabetesmonitorlink').text('Patient Diabetes monitor');
+            $('#diabetesmonitorlink').text('Diabetes Monitoring System');
         }
 
     })

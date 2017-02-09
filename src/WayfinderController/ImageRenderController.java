@@ -3,14 +3,10 @@ import WayfinderDBController.WaypointDA;
 import WayfinderModel.Point;
 
 import javax.imageio.ImageIO;
-import java.awt.Graphics2D;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,13 +16,13 @@ import java.util.Scanner;
  * Created by admin on 2/1/2017.
  */
 public class ImageRenderController {
-    private final static String BACKIMAGESRC = "C:/img/originalMap.png";
-    private final static String SPAWNABLESRC1 = "C:/img/waypoint.png";
-    private final static String SPAWNABLESRC2 = "C:/img/north.png";
-    private final static String SPAWNABLESRC3 = "C:/img/south.png";
-    private final static String SPAWNABLESRC4 = "C:/img/east.png";
-    private final static String SPAWNABLESRC5 = "C:/img/west.png";
-    private final static String SPAWNABLESRC6 = "C:/img/currentIndicator.png";
+    private final static String BACKIMAGESRC = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/originalMap.png";
+    private final static String SPAWNABLESRC1 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/waypoint.png";
+    private final static String SPAWNABLESRC2 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/north.png";
+    private final static String SPAWNABLESRC3 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/south.png";
+    private final static String SPAWNABLESRC4 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/east.png";
+    private final static String SPAWNABLESRC5 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/west.png";
+    private final static String SPAWNABLESRC6 = "D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\web\\img/currentIndicator.png";
     private BufferedImage backImage;
     private BufferedImage waypoint;
     private BufferedImage north;
@@ -288,11 +284,11 @@ public class ImageRenderController {
     {
         String name = "generatedMap" + new Date().getTime() + ".png";
         //name = "/img/" + name;
-        name = "/out/artifacts/IronFour_war_exploded/img/" + name;
+        name = "/out\\artifacts\\JavaEE_IRON4_war_exploded\\img/" + name; //D:\share\YUANXIN\ITP212-master\JavaEE_IRON4\out\artifacts\JavaEE_IRON4_war_exploded\img
         try
-        {
+        {//D:\share\YUANXIN\ITP212-master\JavaEE_IRON4\web\
 
-            File output = new File("C:/Users/admin/IdeaProjects/IronFour/" + name);
+            File output = new File("D:\\share\\YUANXIN\\ITP212-master\\JavaEE_IRON4\\" + name);
 //            File output = new File("img/"+name);
             ImageIO.write(this.getBackImage(), "png", output);
 

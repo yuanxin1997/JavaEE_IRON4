@@ -1,7 +1,6 @@
 package WayfinderController;
 
 import WayfinderDBController.WaypointDA;
-import WayfinderModel.Route;
 import WayfinderModel.Waypoint;
 
 import javax.servlet.ServletException;
@@ -71,15 +70,15 @@ public class QRServlet extends HttpServlet {
             System.out.println("Servlet Progress Scan executed: next Point = " + i + " right ID = "+ selectedRoute.get(i) );
             System.out.println("Servlet Progress Scan executed pt2: curr ID = "+ currId + " Selected route size: "+ selectedRoute.size());
 
-            if(selectedRoute.get(i).equalsIgnoreCase(currId)){
+            if((i+2)>selectedRoute.size() && selectedRoute.get(i).equalsIgnoreCase(currId)){
+                response.sendRedirect("html/WayfinderEnd.jsp");
+                System.out.println("Map point ends");
+            }else if(selectedRoute.get(i).equalsIgnoreCase(currId)){
                 response.sendRedirect("/mapServlet?error=false");
                 System.out.println("QRServlet sent positive");
             }else if(!selectedRoute.get(i).equalsIgnoreCase(currId)){
                 response.sendRedirect("/mapServlet?error=true");
                 System.out.println("QRServlet sent error");
-            }else{
-                response.sendRedirect("html/WayfinderEnd.jsp");
-                System.out.println("Map point ends");
             }
         }
 

@@ -197,20 +197,23 @@
                 $('#paymentContainer').show();
         })
 
-
-
-
-
             // alert('it works');
             //var modal = $('#myModal');
+        var id = consultationid;
+
+        if(!(id == '0'))
+        {
             $('#myModal').modal({backdrop: 'static', keyboard: false});
             $('#myModal').modal('show');
             setTimeout(function()
             {
                 $('#myModal').modal('hide');
             },3000)
+        }
 
-            var id = consultationid;
+
+
+
             console.log(id);
 
             var seconds = 5000;
@@ -275,12 +278,12 @@
                                     if(isPaymentmade)
                                     {
                                         appendPaidBillTable((i+1),billid,billdatetime)
-                                        $('#makePaymentBtn').hide();
-                                        $('#paymentTitle').text("Payment already made ");
+
                                     }
                                     else
                                         {
                                             appendPendingBillTable((i+1),billid,billdatetime)
+
                                         }
                                 }
 
@@ -353,36 +356,40 @@
                 var rowStr = $(this).closest('tr').find('td:first').text(); // get selected row index
                 //var rowIndex = parseInt(rowStr) - 1;
                 var rowIndex = $(this).closest('td').parent()[0].sectionRowIndex; // get selected row index
-                console.log(rowIndex);
+
                 var billid = patientBill[rowIndex].BillID;
                 var selectedbill = getBill(billid);
+              //  console.log('slected billid ' + billid);
+                $('#makePaymentBtn').hide();
+                $('#paymentTitle').text("Payment already made ");
+
 
                 $('#billidinput').val(billid);
+
                 displayBill(selectedbill.descriptionList,selectedbill.priceList,selectedbill.totalAmtBeforeGST,selectedbill.totalAmountPayable)
                 $('#mainBody').replaceWith($('#selectedBill'))
 
-                console.log($('#BILLIDINPUT').val());
+                console.log( ' selceted billid this time haha : ' +  $('#billidinput').val());
             })
 
             $('#pendingBillTable').on('click','#viewbill',function ()
             {
 
-
-
                 var rowStr = $(this).closest('tr').find('td:first').text(); // get selected row index
 //                var rowIndex = parseInt(rowStr) - 1;
                 var rowIndex = $(this).closest('td').parent()[0].sectionRowIndex; // get selected row index
-                console.log(rowIndex);
-                console.log(patientBill[rowIndex]);
-                console.log(patientBill);
                 var billid = patientBill[rowIndex].BillID;
+               // console.log('slected billid ' + billid);
                 var selectedbill = getBill(billid);
 
                 $('#billidinput').val(billid);
 
                 displayBill(selectedbill.descriptionList,selectedbill.priceList,selectedbill.totalAmtBeforeGST,selectedbill.totalAmountPayable)
-                $('#mainBody').replaceWith($('#selectedBill'))
-                console.log($('#billidinput').val());
+                $('#makePaymentBtn').show();
+                $('#paymentTitle').text("Payment");
+                $('#mainBody').replaceWith($('#selectedBill'));
+
+                console.log( ' selceted billid this time haha : ' +  $('#billidinput').val());
 
             })
         }
@@ -390,6 +397,7 @@
         $('#DisplayAllBillbtn').click(function()
         {
             window.location.reload();
+            $('#myModal').empty();
         })
 
 

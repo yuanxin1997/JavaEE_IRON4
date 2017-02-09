@@ -52,31 +52,31 @@ public class PaymentDBAO
         return success;
     }
 
-    public static boolean checkPaymentExists(String billid)
-    {
-        DBController db = new DBController();
-        String query;
-        PreparedStatement ps;
-        ResultSet rs;
-
-        db.getConnection();
-        boolean success =false;
-
-        query = "select * from payment where billid = ?";
-        ps = db.getPreparedStatement(query);
-
-        try {
-            ps.setString(1,billid);
-            rs = ps.executeQuery();
-            if(rs.next())
-            {
-                success = true;
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        db.terminate();
-        return success;
-
-    }
+//    public static boolean checkPaymentExists(String billid)
+//    {
+//        DBController db = new DBController();
+//        String query;
+//        PreparedStatement ps;
+//        ResultSet rs;
+//
+//        db.getConnection();
+//        boolean success =false;
+//
+//        query = "select * from payment where billid = ?";
+//        ps = db.getPreparedStatement(query);
+//
+//        try {
+//            ps.setString(1,billid);
+//            rs = ps.executeQuery();
+//            if(rs.next())
+//            {
+//                success = true;
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        db.terminate();
+//        return success;
+//
+//    }
 }

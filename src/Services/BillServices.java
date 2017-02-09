@@ -1,7 +1,6 @@
 package Services;
 
 import Database.BillDBAO;
-import Database.PaymentDBAO;
 import Model.Bill;
 import Utility.BillUtility;
 import com.google.gson.Gson;
@@ -39,14 +38,6 @@ public class BillServices {
         Gson gson = new Gson();
         List<Bill> billList = BillDBAO.getPatientBills(patientID);
 
-        for (int i = 0 ; i<billList.size();i++)
-        {
-            boolean paymentexists =  PaymentDBAO.checkPaymentExists(billList.get(i).getBillID());
-            if(paymentexists)
-            {
-                billList.get(i).setPaymentMade(true);
-            }
-        }
 
 
         return gson.toJson(billList);

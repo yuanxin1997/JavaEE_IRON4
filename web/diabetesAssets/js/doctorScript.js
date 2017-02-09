@@ -37,7 +37,7 @@ var app = angular.module('doctorApp', ["nvd3","ui.router","toastr","ngAnimate","
         };
     })
     .config(function ($stateProvider, $urlMatcherFactoryProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise("/home")
+        $urlRouterProvider.otherwise("/home");
         $urlMatcherFactoryProvider.caseInsensitive(true);
         $stateProvider
             .state("docHome", {

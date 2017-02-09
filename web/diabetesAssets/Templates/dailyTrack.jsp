@@ -8,13 +8,7 @@
     primaryColor: '#459ECC'
 });
 </script>
-<style>
-    .no-animate {
-        -webkit-backface-visibility: hidden;
-        -webkit-transform:translate3d(0,0,0);
-        -webkit-transform-style: preserve-3d;
-    }
-</style>
+
 <div class="container-fluid">
     <div class="card">
         <div class="container" id="info-container">

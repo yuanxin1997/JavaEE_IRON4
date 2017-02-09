@@ -11,14 +11,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.time.LocalTime;
 import java.util.Calendar;
-import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.locks.Lock;
 
 /**
  * Created by User on 2/5/2017.
@@ -41,6 +38,10 @@ public class FeedbackReceiveServlet extends HttpServlet {
         java.sql.Date date = new java.sql.Date(Calendar.getInstance().getTime().getTime());
         java.sql.Time timeNow = new java.sql.Time(date.getTime());
         String fbId = Integer.toString(randomNum);
+
+        LocalTime localtime = timeNow.toLocalTime();
+        localtime = localtime.plusHours(16);
+        timeNow = java.sql.Time.valueOf(localtime);
 
 
         boolean crit = false;

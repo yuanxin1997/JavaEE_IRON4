@@ -1,7 +1,6 @@
 package WayfinderDBController;
 
 import WayfinderModel.Feedback;
-import com.sun.syndication.feed.atom.Feed;
 import wayfinder.db.DBController;
 
 import java.sql.*;
@@ -18,7 +17,7 @@ public class FeedbackDA {
         Connection myConn = dbController.getConnection();
         PreparedStatement preparedStatement = null;
 
-        String insertTableSQL = "INSERT INTO wayfinder.feedback"
+        String insertTableSQL = "INSERT INTO feedback"
                 + "(id, name, waypoint_id, crit, type, date, time) VALUES"
                 + "(?,?,?,?,?,?,?)";
 

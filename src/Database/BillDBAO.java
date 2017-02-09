@@ -23,9 +23,15 @@ public class BillDBAO
         String consultid = rs.getString("consultid");
         double totalamountpayable = rs.getDouble("totalamountpayable");
         String billingdate = rs.getString("billingdate");
+        String paymentmade = rs.getString("paymentmade");
+        boolean ispaymentmade = false;
+        if(paymentmade.equalsIgnoreCase("1")){
+            ispaymentmade = true;
+        }
 
 
         bill = new Bill(billid,consultid,totalamountpayable,billingdate);
+        bill.setPaymentMade(ispaymentmade);
 
 
         return bill;
@@ -115,7 +121,7 @@ public class BillDBAO
         db.getConnection();
 
 
-        query = "select billid,b.consultid,totalamountpayable,billingdate from Bill b inner join consultation cn on b.consultid = cn.consultid where cn.pid = ?";
+        query = "select billid,b.consultid,totalamountpayable,billingdate,paymentmade from Bill b inner join consultation cn on b.consultid = cn.consultid where cn.pid = ?";
         ps = db.getPreparedStatement(query);
 
         try {
@@ -161,5 +167,30 @@ public class BillDBAO
 
         db.terminate();
         return bill;
+    }
+
+    public static boolean UpdateBillPaymentMade(String billid)
+    {
+        Bill bill = new Bill();
+        DBController db = new DBController();
+        String query;
+        PreparedStatement ps;
+        ResultSet rs;
+        boolean success = false;
+        db.getConnection();
+        query = "Update Bill set paymentmade = '1' where billid = ? ";
+        ps = db.getPreparedStatement(query);
+
+        try {
+            ps.setString(1,billid);
+            if(ps.executeUpdate() == 1)
+            {
+                success = true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        db.terminate();
+        return success;
     }
 }

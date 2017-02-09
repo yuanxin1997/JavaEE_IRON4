@@ -38,7 +38,7 @@
          };
      })
      .config(function ($stateProvider, $urlMatcherFactoryProvider, $urlRouterProvider) {
-         $urlRouterProvider.otherwise("/dailyTrack")
+         $urlRouterProvider.otherwise("/dailyTrack");
          $urlMatcherFactoryProvider.caseInsensitive(true);
          $stateProvider
              .state("dailyTrack", {
@@ -298,10 +298,6 @@
                      $("#my-form")[0].reset();
                  }
              }
-
-
-
-
 
          };
 
