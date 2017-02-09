@@ -14,7 +14,7 @@
         var mystream      = null;
         var myvideo       = document.createElement('video');
         var myconnection  = false;
-        var mediaconf     = config.media || { audio : false, video : false };
+        var mediaconf     = config.media || { audio : true, video : true };
         var conversations = {};
 
         // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
